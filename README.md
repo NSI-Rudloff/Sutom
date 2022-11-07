@@ -15,7 +15,7 @@ Le principe du jeu est le suivant :
 ### Faire deviner un mot à un ami
 Lancer le programme avec un argument permet de faire deviner le mot que l'on veut.
 
-Par exemple, avec la commande `python3 sutom.py abricot` fais deviner le mot "abricot". Attention le mot donné doit être dans le dictionnaire !
+Par exemple, la commande `python3 sutom.py abricot` fait deviner le mot "abricot". Attention le mot donné doit être dans le dictionnaire !
 
 ### Tricher
 Pour tricher, c'est-à-dire afficher le mot que l'on fait deviner, il suffit de donner un mot rempli de '\#'. La solution sera alors affichée, et il suffira de la recopier pour gagner.
