@@ -37,6 +37,7 @@ def correction(proposition : str,mot: str, stat_lettres : list) -> list:
             stat_lettres[i] = 12
         elif proposition[i] in mot and proposition[i] in lettres_a_trouver:
             stat_lettres[i] = deja_trouve + 1
+            lettres_a_trouver.remove(proposition[i])
         else:
             stat_lettres[i] = deja_trouve
     return stat_lettres
